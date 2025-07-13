@@ -1,0 +1,254 @@
+world
+{
+	"id" "0"
+	"mapversion" "220"
+	"wad" ""
+	"classname" "worldspawn"
+	"sounds" "1"
+	"MaxRange" "4096"
+	"startdark" "0"
+	"gametitle" "0"
+	"newunit" "0"
+	"defaultteam" "0"
+	solid
+	{
+		"id" "1"
+		side
+		{
+			"id" "2"
+			"plane" "(-64 -64 -16) (-64 -63 -16) (-64 -64 -15)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 -1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-64 -64 -16) (-64 -64 -15) (-63 -64 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-64 -64 -16) (-63 -64 -16) (-64 -63 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(64 64 16) (64 65 16) (65 64 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(64 64 16) (65 64 16) (64 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "7"
+			"plane" "(64 64 16) (64 64 17) (64 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "2"
+		side
+		{
+			"id" "8"
+			"plane" "(64 64 16) (64 65 16) (64 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "9"
+			"plane" "(-64 -64 -16) (-64 -64 -15) (-63 -64 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "10"
+			"plane" "(-64 -64 -16) (-63 -64 -16) (-64 -63 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "11"
+			"plane" "(64 64 16) (64 65 16) (65 64 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "12"
+			"plane" "(64 64 16) (65 64 16) (64 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(72 64 16) (72 64 17) (72 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "3"
+		side
+		{
+			"id" "14"
+			"plane" "(24 64 16) (24 65 16) (24 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(48 64 64) (24 64 40) (24 192 40)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0.7071067811865476 0 0.7071067811865476 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(-64 -64 -16) (-64 -64 -15) (-63 -64 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(64 64 16) (65 64 16) (64 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "18"
+			"plane" "(64 64 64) (64 65 64) (65 64 64)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "19"
+			"plane" "(64 64 16) (65 64 16) (64 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "20"
+			"plane" "(72 64 16) (72 64 17) (72 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+	solid
+	{
+		"id" "4"
+		side
+		{
+			"id" "21"
+			"plane" "(-40 64 16) (-40 65 16) (-40 64 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "22"
+			"plane" "(-64 -24 -16) (-64 -24 -15) (-63 -24 -16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "23"
+			"plane" "(64 64 16) (65 64 16) (64 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "24"
+			"plane" "(24 64 40) (16 64 40) (16 192 40)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[1 0 0 0] 0.25"
+			"vaxis" "[0 -1 0 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "25"
+			"plane" "(64 24 16) (65 24 16) (64 24 17)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[-1 0 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+		side
+		{
+			"id" "26"
+			"plane" "(24 64 16) (24 64 17) (24 65 16)"
+			"material" "dev/dev_measuregeneric01b"
+			"uaxis" "[0 1 0 0] 0.25"
+			"vaxis" "[0 0 -1 0] 0.25"
+			"lightmapscale" "16"
+		}
+	}
+}
