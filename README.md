@@ -20,7 +20,7 @@ A Python GUI application that converts Source Engine `.map` files to Valve Map F
 
 1. **Clone or download the project files**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ammarillo/map2vmf.git
    cd map2vmf
    ```
 
