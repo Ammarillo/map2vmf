@@ -10,6 +10,7 @@ A Python GUI application that converts Source Engine `.map` files to Valve Map F
 - **Material Replacement**: Automatically replaces `__TB_empty` materials with a user-defined texture
 - **Detailed Statistics**: Shows conversion statistics including brush count, face count, and material replacements
 - **Cross-Platform**: Works on Windows, macOS, and Linux
+- **Standalone Executable**: Can be built into a self-contained executable that doesn't require Python installation
 
 ## Requirements
 
@@ -17,6 +18,8 @@ A Python GUI application that converts Source Engine `.map` files to Valve Map F
 - PyQt5 5.15.0 or higher
 
 ## Installation
+
+### Option 1: Run from Source
 
 1. **Clone or download the project files**
    ```bash
@@ -29,14 +32,47 @@ A Python GUI application that converts Source Engine `.map` files to Valve Map F
    pip install -r requirements.txt
    ```
 
+3. **Run the application**
+   ```bash
+   python map2vmf.py
+   ```
+
+### Option 2: Build Standalone Executable
+
+1. **Clone or download the project files**
+   ```bash
+   git clone https://github.com/Ammarillo/map2vmf.git
+   cd map2vmf
+   ```
+
+2. **Install dependencies**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. **Build the executable**
+   ```bash
+   python build_exe.py
+   ```
+
+4. **Run the executable**
+   - **Windows**: Double-click `dist/Map2VMF_Converter.exe`
+   - **Linux/Mac**: Run `./dist/Map2VMF_Converter`
+
 ## Usage
 
 ### Running the Application
 
+#### From Source Code
 1. **Start the application**
    ```bash
    python map2vmf.py
    ```
+
+#### From Executable
+1. **Run the standalone executable**
+   - **Windows**: Double-click `Map2VMF_Converter.exe`
+   - **Linux/Mac**: Run `./Map2VMF_Converter`
 
 2. **Select Input File**
    - Click "Select .map File" to choose your Source Engine `.map` file
